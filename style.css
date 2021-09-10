@@ -1,65 +1,123 @@
 body{
     background-color: #222;
+    margin: 0;
 }
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #343a40!important;
-    
-}
-.nav-izq{
-    justify-content: flex-start;
+h1{
+    color: #2957ba;
 }
 ul{
     list-style: none;
     display: flex;
     flex-direction: row;
 }
+
 li{
     padding:0 30px;
 }
+
 a{
 text-decoration: none;
 color: hsla(0,0%,100%,.5);
+}
 
-}
-.nav-izq{
-    text-decoration: crimson;
-    text-transform: uppercase;
-}
 option{
     text-transform: uppercase;
 }
-.boton{
-    background-color: darkblue;
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #343a40!important;
+    margin: 0 0;
 }
-.logo{
-    color: #2957ba;
+
+.nav-izq{
+    justify-content: flex-start;
+    text-decoration: crimson;
+    text-transform: uppercase;
 }
+
+.popular{
+    margin-left: 20px;
+}
+
 .button {
     background-color: #2957ba;
     border: none;
     color: white;
-    padding: 15px 150px;
+    padding: 15px 145px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 0 -2px;
     cursor: pointer;
-  }
+    border-radius: 0;
+}
 
-  .portada{
+.boton{
+    background-color: darkblue;
+}
+
+.logo{
+    color: #2957ba;
+}
+
+.portada{
       display: grid;
-      grid-template-columns: repeat(4, 230px);
-      grid-template-rows: repeat(3, 270px);
+      grid-template-columns: repeat(5, 190px);
+      grid-template-rows: repeat(2, 270px);
       column-gap: 30px;
       row-gap:10px;
       margin:5px 20px 20px;
-  }
-  .portada-popular{
-      background-color: tomato; /* cambiar por una imagen */
-      color: white;
-  }
+}
+.portada-popular{
+      background-image:url(/img/5e30f26dee0f6.jpg); /* cambiar por una imagen */
+      background-repeat: no-repeat;
+      background-size: contain;
+        
+}
+
+.subir-cap{
+    cursor: pointer;
+    background-color: #2957ba;
+    border: none;
+    color: white;
+}
+.vertodo{
+    padding-left: 460px;
+}
+.ver-todo{
+    background-color: #2957ba;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border: none;
+}
+
+.programacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+.programacion-boton{
+    background-color: #2957ba;
+    border: none;
+    color: white;
+    padding: 15px 145px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 -2px;
+    cursor: pointer;
+    border-radius: 0;
+    width: 530px;
+    margin-top: 30px;
+}
+.cap-pendiente{
+    padding:0 20px;
+}
